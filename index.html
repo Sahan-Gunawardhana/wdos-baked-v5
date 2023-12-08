@@ -20,40 +20,40 @@
     <header>
         <nav>
             <input id="navbar-btn" type="checkbox">
-            <section class="logo">
+            <section class="logo" aria-label="logo">
               <img src="./Images/logo.png" alt="tented lodge logo">
             </section>
             
         </nav>
-        <section class="container">
+        <section class="container" aria-label="container">
           <h3 class="nav-animation">Reservations</h3>
             <img src="./Images/dining-gallery.jpg" alt="Beneath the canvas of a fiery sunset on a tranquil beach, a couple indulges in a romantic dining experience.">
         </section>
     </header>
-    <article class="page">
-        <section class="contactUs">
-            <section class="cu-container">
+    <article class="page" aria-label="Main Content">
+        <section class="contactUs" aria-label="contact us section">
+            <section class="cu-container" aria-label="Contact Us Container">
                 <!-- Form -->
-                <section class="write form-1">
+                <section class="write form-1" aria-label="reservations form">
                     <h3>Reserve your table in the paradise today!</h3> <br> <br>
-                    <form method="get" id="room-reservations">
-                        <section class="formBox">
-                            <section class="row50">
-                                <section class="inputBox">
+                    <form method="get" id="room-reservations" aria-label="reservations">
+                        <section class="formBox" aria-label="box containing the form">
+                            <section class="row50" aria-label="form section one">
+                                <section class="inputBox" aria-label="details input fields">
                                     <label for="f-name">First Name</label>
                                     <input type="text" placeholder="First Name" id="f-name" autocomplete="name" required>
                                 </section>
-                                <section class="inputBox">
-                                    <label for="l-name">Last Name</label>
+                                <section class="inputBox" aria-label="details input fields">
+                                    <label for="l-name">L ast Name</label>
                                     <input type="text" placeholder="Last Name" id="l-name" autocomplete="family-name" required>
                                 </section>
                             </section>
-                            <section class="row50">
-                                <section class="inputBox">
+                            <section class="row50" aria-label="form section one">
+                                <section class="inputBox" aria-label="idetails input fields">
                                     <label for="email">Email</label>
                                     <input type="email" placeholder="johndoe@email.com" id="email" autocomplete="email" required >
                                 </section>
-                                <section class="inputBox">
+                                <section class="inputBox" aria-label="details input fields">
                                     <label for="t-number">Contact Number</label>
                                     <input type="text" placeholder="+00 --- --- ----" minlength="11" maxlength="13" id="t-number" autocomplete="tel" required>
                                 </section>
@@ -61,8 +61,8 @@
                             <h3>
                               Room Reservations
                             </h3>
-                            <section class="row100">
-                              <section class="inputBox">
+                            <section class="row100" aria-label="form section two">
+                              <section class="inputBox" aria-label="details input fields">
                                 <label for="branch-1">Branch</label>
                                   <select name="branch" id="branch-1"  required>
                                       <option value="">Select a branch</option>
@@ -72,37 +72,37 @@
                                   </select>
                               </section>
                             </section>
-                            <section class="row50">    
-                              <section class="inputBox">
+                            <section class="row50" aria-label="form section one">    
+                              <section class="inputBox" aria-label="details input fields">
                                   <label for="adults">Adults</label>
                                   <input type="number" placeholder="1" min="0" value="0" id = "adults" name="Adults"  required> 
                               </section>
-                              <section class="inputBox">
+                              <section class="inputBox" aria-label="details input fields">
                                   <label for="kids">Kids(over 5 years)</label>
                                   <input type="number" id="kids" placeholder="1" min="0" value="0" name="Kids">
                               </section>
                             </section>
-                            <section class="row50">    
-                              <section class="inputBox">
+                            <section class="row50" aria-label="form section one">    
+                              <section class="inputBox" aria-label="details input fields">
                                   <label for="a-date">Arrival</label>
                                   <input type="date" name="a-date" id="a-date">
                               </section>
-                              <section class="inputBox">
+                              <section class="inputBox" aria-label="details input fields">
                                   <label for="d-date">Depature</label>
                                   <input type="date" name="d-date" id="d-date"  >
                               </section>
                               </section>
-                              <section class="row50">    
-                                <section class="inputBox">
+                              <section class="row50" aria-label="form section one">    
+                                <section class="inputBox" aria-label="details input fields">
                                     <label for="s-room">Single Bedrooms</label>
                                    <input type="number" min="0" placeholder="Enter the number of rooms" id="s-room" value="0">
                                 </section>
-                                <section class="inputBox">
+                                <section class="inputBox" aria-label="details input fields">
                                     <label for="d-room">Double Bedrooms</label>
                                     
                                    <input type="number" min="0" placeholder="Enter the number of rooms" id="d-room" value="0">
                                 </section>
-                                <section class="inputBox">
+                                <section class="inputBox" aria-label="details input fields">/
                                     <label for="t-room">Triple Bedrooms</label>
                                     
                                    <input type="number" min="0" placeholder="Enter the number of rooms" id="t-room" value="0">
@@ -111,9 +111,9 @@
                         </section>
                       <br> <br>
                         <h3>Extra requirements</h3> <br>
-                    <section class="row100">
-                        <section class="data-box">
-                            <table class='custom-table'>
+                    <section class="row100"  aria-label="form section two">
+                        <section class="data-box" aria-label="extra requirement table box">
+                            <table class='custom-table' aria-label="extra requirement table">
                                 <tr class='custom-row custom-row-head'>
                                   <th>
                                   </th>
@@ -211,9 +211,9 @@
                               </table>
                         </section>
                     </section>
-                    <section class="formBox">
-                      <section class="row100">
-                        <section class="inputBox">
+                    <section class="formBox"  aria-label="promo code box">
+                      <section class="row100"  aria-label="promo field row">
+                        <section class="inputBox" aria-label="promo code input field">
                           <label for="promo">Promo Code</label>
                           <input type="text" placeholder="Promo Code" id="promo">
                       </section>
@@ -221,9 +221,9 @@
                     </section>
                     <br> <br>
                     <h3>Book Adventures</h3> <br> 
-                    <section class="formBox">
-                      <section class="row100">
-                        <section class="inputBox">
+                    <section class="formBox"  aria-label="branch box">
+                      <section class="row100"  aria-label="branch row">
+                        <section class="inputBox" aria-label="branch selection box">
                           <label for="branch-2">Branch</label>
                             <select name="branch" id="branch-2" required >
                                 <option value="">Select a branch</option>
@@ -233,8 +233,8 @@
                             </select>
                         </section>
                       </section>
-                      <section class="row100">
-                        <section class="inputBox">
+                      <section class="row100"  aria-label="adventure type row">
+                        <section class="inputBox" aria-label="adventure selecetion box">
                           <label for="adventure">Adventure</label>
                             <select name="adventure" id="adventure"  required>
                                 <option value="">Select an adventure</option>
@@ -244,32 +244,32 @@
                             </select>
                         </section>
                       </section>
-                      <section class="row50">    
-                        <section class="inputBox">
+                      <section class="row50" aria-label="adv participant row">    
+                        <section class="inputBox" aria-label="adults input field">
                             <label for="f-adults">Foreign Adults</label>
                             <input type="number" placeholder="1" min="0" value="0" id="f-adults" name="Adults"> 
                         </section>
-                        <section class="inputBox">
+                        <section class="inputBox" aria-label="kids input field">
                             <label for="f-kids">Foreign Kids(over 5 years)</label>
                             <input type="number" id="f-kids" placeholder="1" min="0" value="0">
                         </section>
                       </section>
-                      <section class="row50">    
-                        <section class="inputBox">
+                      <section class="row50" aria-label="adults row">    
+                        <section class="inputBox" aria-label="adult input fields">
                             <label for="l-adults">Local Adults</label>
                             <input type="number" id="l-adults" placeholder="1" min="0" value="0">
                         </section>
-                        <section class="inputBox">
+                        <section class="inputBox" aria-label="kids input fields">
                             <label for="l-kids">Local Kids(over 5 years)</label>
                             <input type="number" id="l-kids" placeholder="1" min="0" value="0">
                         </section>
                         </section>
-                        <section class="row50">    
-                          <section class="inputBox">
+                        <section class="row50" aria-label="duration and guide box">    
+                          <section class="inputBox" aria-label="duration input fields">
                               <label for="duration">No. of Hours(charged per hour)</label>
                              <input type="number" min="0" placeholder="1" value="1" id="duration">
                           </section>
-                          <section class="inputBox">
+                          <section class="inputBox" aria-label="guide input fields">
                             <label for="guide">Guide Requirement</label>
                             <select name="Guide" id="guide">
                               <option value="No guides are required">No guide required</option>
@@ -279,23 +279,23 @@
                         </section>
                   </section>
                     <br>
-                    <section class="row100">
-                      <section class="inputBox">
+                    <section class="row100"  aria-label="buttons box">
+                      <section class="inputBox" aria-label="reserve rooms button">
                         <button class="reserve" type="submit" id="reserve">
                           Reserve Rooms
                         </button>
                       </section>
-                      <section class="inputBox">
+                      <section class="inputBox"  aria-label="reserve adventures button">
                         <button class="reserve-adv" type="submit" id="reserve-adv">
                           Reserve Adventures
                         </button>
                       </section>
-                      <section class="inputBox">
+                      <section class="inputBox"  aria-label="add to favourites button">
                         <button class="add-fav" type="submit" id="add-fav" title="Add to favourites">
                           ♡
                         </button>
                       </section>
-                      <section class="inputBox">
+                      <section class="inputBox"  aria-label="check loyalty button">
                         <button class="loyalty" type="button" id="loyalty">
                           Check Loyalty
                         </button>
@@ -307,7 +307,7 @@
             </section>
         </section>
     </article>
-    <table class="table-2 ">
+    <table class="table-2 " aria-label="output table">
       <tr>
         <th>Personal Details Summary</th>
         <th></th>
@@ -444,8 +444,8 @@
       </tr>
     </table>
     <br>
-    <section class="empty" id="empty"></section>
-    <section class="table-wrapper" id="table-wrapper">
+    <section class="empty" id="empty" aria-label="exmpty section filler"></section>
+    <section class="table-wrapper" id="table-wrapper" aria-label="output paragraph">
       <table class="fl-table">
           <thead>
           <tr>
@@ -466,8 +466,8 @@
           <tbody>
       </table>
     </section>  
-    <section class="row100">
-      <section class="inputBox">
+    <section class="row100"  aria-label="retun button box">
+      <section class="inputBox"  aria-label="return button">
         <button class="return" type="button" id="return">
           ↻
         </button>
